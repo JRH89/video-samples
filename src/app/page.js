@@ -4,8 +4,8 @@ const Video = ({ src }) => {
   return (
     <video
       controls
-      width="640"
-      height="360"
+      width="1920"
+      height="1080"
       className="mb-4"
     >
       <source src={src} type="video/mp4" />
