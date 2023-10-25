@@ -36,9 +36,14 @@ const Home = () => {
 
       </div>
       <div
-        className="bg-neutral-950 text-center"
+        className="bg-neutral-950 text-center duration-200"
       >
-        <a href="https://www.hookerhillstudios.com">Hooker Hill Studios</a>
+        <a href="https://www.hookerhillstudios.com" class="hover-link transition duration-300">
+          <span class="word">Hooker </span>
+          <span class="word">Hill </span>
+          <span class="word">Studios</span>
+        </a>
+
       </div>
     </>
   )
