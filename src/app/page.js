@@ -18,7 +18,7 @@ const Home = () => {
   const videos = [
     "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-13_HD_8.mp4?alt=media&token=e940a3c1-2136-4dce-a54f-1498a0229381",
     "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-7_3_HD_3.mp4?alt=media&token=dd5f88d1-a82f-4e2d-a5ee-e70347247d7e",
-    "placeholder_video_3.mp4",
+    "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-24_2_4K.mp4?alt=media&token=b1ab3525-044b-4356-a9fc-529fd4dd0af9",
   ]
 
   return (
