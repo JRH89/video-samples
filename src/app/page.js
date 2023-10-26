@@ -37,7 +37,7 @@ const Home = () => {
     <>
       <div className="bg-gray-100 min-h-screen p-6 my-auto place-content-center mx-auto flex flex-col">
         <div className="max-w-screen-lg mx-auto">
-          <h1 className="text-2xl underline font-bold mb-4 text-center text-neutral-950">Animated 3D Logo Samples</h1>
+          <h1 className="text-2xl underline font-bold mb-4 text-center text-neutral-950">Animated 3D Logo Examples</h1>
           <div className="space-y-4">
             {videos.map((video, index) => (
               <Video key={index} src={video} />
@@ -47,7 +47,7 @@ const Home = () => {
       </div>
       <div className="bg-gray-100 min-h-screen p-6 my-auto place-content-center mx-auto flex flex-col">
         <div className="max-w-screen-lg mx-auto">
-          <h1 className="text-2xl underline font-bold mb-4 text-center text-neutral-950">3D Logo Samples</h1>
+          <h1 className="text-2xl underline font-bold mb-4 text-center text-neutral-950">3D Logo Examples</h1>
           <div className="space-y-4">
             {images.map((image, index) => (
               <Image key={index} src={image} height={1080} alt="Images" width={1920} />
